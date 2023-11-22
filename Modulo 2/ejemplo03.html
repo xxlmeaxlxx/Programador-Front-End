@@ -33,12 +33,39 @@
             <label for="Hobbies"></label>
             <ul>
                 <li>
-                    <input type="checkout" name="hobbies[]" value="bailar" id="bailar">
-                    <label for=""></label>
+                    <input type="checkbox" name="hobbies[]" value="bailar" id="bailar">
+                    <label for="bailar">Bailar</label>
+                </li>
+                <li>
+                    <input type="checkbox" name="hobbies[]" value="cantar" id="cantar">
+                    <label for="cantar">Cantar</label>
+                </li>
+                <li>
+                    <input type="checkbox" name="hobbies[]" value="correr" id="correr">
+                    <label for="correr">Correr</label>
                 </li>
             </ul>
-            
+            <p>
+                <label for="Titulo">Titulo</label>
+                <select name="Titulo">
+                    <option value="primario">primario</option>
+                    <option value="secundario">secundario</option>
+                    <option value="terciario">terciario</option>
+                    <option value="universitario">universitario</option>
+                </select>
+            </p>
+            <p>
+                <label for="comentarios">comentarios</label>
+                <textarea name="comentarios"></textarea>
+            </p>
+            <p>
+                <input type="submit" value="Enviar" />
+                <input type="reset" value="Borrar" />
+            </p>
 
+            
+            
+            
     </form>
 </body>
 </html>
